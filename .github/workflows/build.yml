@@ -1,0 +1,20 @@
+name: Validate FED-HUB static site
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required pages and routes
+        run: |
+          test -f index.html
+          test -f support.html
+          test -f promotional.html
+          test -f manus-routes.json
+          grep -q 'FED-HUB' index.html
+          grep -q 'support.html' manus-routes.json
+      - name: Check JavaScript syntax
+        run: node --check app.js && node --check assets/js/app.js
