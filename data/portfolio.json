@@ -1,0 +1,7 @@
+{
+  "name":"FED-HUB",
+  "tagline":"Open access intelligence for the curious.",
+  "books":["muse-field-guide","synthetic-signal","quiet-machines"],
+  "contact":{"careers":"careers@fedpromptly.com","support":"support@fedpromptly.com","business":"business@fedpromptly.com","contact":"contact@fedpromptly.com"},
+  "social":{"github":"https://github.com/FED-OS","koFi":"https://ko-fi.com/fedpromptly"}
+}
