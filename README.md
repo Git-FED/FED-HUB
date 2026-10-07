@@ -60,3 +60,7 @@ The repository now includes `promotional.html`, GitHub Pages workflows, funding 
 - `social-image.svg` — editable social preview source
 - `favicon.svg` — FED-HUB page favicon
 - `promotional.html` — neon GitHub promotion page
+
+Check out Muse, your personal AI agent. 
+Code: 5F2V31
+https://muse.ai/join
